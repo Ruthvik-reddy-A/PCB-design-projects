@@ -2,7 +2,7 @@
 
 This repository documents a simple yet essential module for electronics prototyping: the Breadboard Power Supply. It provides a regulated voltage output (3.3V and/or 5V) directly to your breadboard, making it ideal for microcontroller projects, sensor interfacing, and other DIY circuits.
 
-## ⚙️ Features
+## ⚙️ Features.
 * Input voltage: 6V–12V DC via barrel jack or 5V USB
 * Output voltage: Selectable 3.3V / 5V via jumper or switch
 * Current capacity: Up to 500mA–1A (depends on regulator used)
