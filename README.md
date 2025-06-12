@@ -54,6 +54,12 @@ A miniature solar energy harvesting module capable of charging a Li-ion battery 
 ![Tiny Solar Supply Preview](https://github.com/user-attachments/assets/a0683dc4-0e03-41be-add1-3364a4481c40)
 
 
+### 4. [📦 LED Torch](./LED%20Torch)  
+A compact, battery-powered LED torch circuit using minimal components. Designed for efficiency, simplicity, and portability, this project is ideal for learning basic electronics or building a low-cost flashlight.
+
+![image](https://github.com/user-attachments/assets/2b9c05c0-b222-46b4-b012-f38b91d6988f)
+
+
 ---
 
 ## 📦 Folder Structure
