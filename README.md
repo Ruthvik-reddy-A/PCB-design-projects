@@ -34,7 +34,7 @@ A microcontroller-based data logger that logs sensor or serial data to a 512KB e
 - Power supply filtering and decoupling
 - Compatible with UART, I²C sensors or serial interfaces
 
-![MCU Datalogger Preview](https://raw.githubusercontent.com/Ruthvik-reddy-A/PCB--MCU-Datalogger/main/images/datalogger-preview.png)
+![MCU Datalogger Preview](https://github.com/user-attachments/assets/a3be4ded-9055-4b7a-9af2-43a87650450a)
 
 ---
 
@@ -67,12 +67,6 @@ Each folder includes:
 - ✅ Bill of Materials (BOM)
 - ✅ Gerber & Drill files
 - ✅ Source code (if applicable)
-
----
-
-## 📄 License
-
-This repository and its subprojects are provided under the [MIT License](LICENSE), unless otherwise noted in the individual project folders.
 
 ---
 
