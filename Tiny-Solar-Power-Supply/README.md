@@ -7,7 +7,7 @@ This project is a **solar-powered boost converter** that takes input from a smal
 
 ## 📸 Preview
 
-![PCB Preview](<img width="529" alt="image" src="https://github.com/user-attachments/assets/955f0023-5773-45fc-b709-64f48a1f761e" />) 
+![PCB Preview](![image] https://github.com/user-attachments/assets/955f0023-5773-45fc-b709-64f48a1f761e) 
 
 ---
 
