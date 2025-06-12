@@ -64,12 +64,6 @@ A compact, battery-powered LED torch circuit using minimal components. Designed 
 
 ## 📦 Folder Structure
 
-PCB-design-projects/
-├── Breadboard-Power-Supply/
-├── MCU-Datalogger-With-Built-In-512K-EEPROM/
-└── Tiny-Solar-Power-Supply/
-
-
 Each folder includes:
 - ✅ `README.md`
 - ✅ `.gitignore`
