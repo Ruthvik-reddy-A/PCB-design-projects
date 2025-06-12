@@ -2,8 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Tools](https://img.shields.io/badge/Tools-KiCad-green)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen-4)
 ![Projects](https://img.shields.io/badge/Projects-5-blue)
+![Completed](https://img.shields.io/badge/Completed-4-brightgreen)
+![In%20Progress](https://img.shields.io/badge/In_Progress-1-orange)
+
 
 This combined repository contains self-contained folders for each individual project, along with complete schematics, PCB layouts, documentation, and source files where applicable. It serves both as a personal portfolio and an open-source contribution to the maker and engineering community.
 
