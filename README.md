@@ -5,8 +5,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Projects](https://img.shields.io/badge/Projects-3-blue)
 
-Welcome to my curated collection of hardware design projects focused on practical, compact, and beginner-to-intermediate level printed circuit board (PCB) designs. These projects were originally built to improve my skills in circuit design, PCB layout, power electronics, and embedded systems.
-
 This combined repository contains self-contained folders for each individual project, along with complete schematics, PCB layouts, documentation, and source files where applicable. It serves both as a personal portfolio and an open-source contribution to the maker and engineering community.
 
 ---
