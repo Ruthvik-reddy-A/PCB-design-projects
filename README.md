@@ -1,7 +1,7 @@
 # 🔧 PCB Design Projects
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Tools](https://img.shields.io/badge/Tools-KiCad%20%7C%20Eagle-green)
+![Tools](https://img.shields.io/badge/Tools-KiCad-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Projects](https://img.shields.io/badge/Projects-4-blue)
 
