@@ -7,7 +7,7 @@ This project is a **solar-powered boost converter** that takes input from a smal
 
 ## 📸 Preview
 
-(![image](https://github.com/user-attachments/assets/955f0023-5773-45fc-b709-64f48a1f761e))
+![image](https://github.com/user-attachments/assets/955f0023-5773-45fc-b709-64f48a1f761e)
 
 ---
 
@@ -36,7 +36,7 @@ This project is a **solar-powered boost converter** that takes input from a smal
 
 The boost converter is built around the **AP3015A** DC-DC converter and includes standard passive filtering (L1, C1–C3) and voltage divider resistors (R1/R2) to regulate the output to ~3.3V.
 
-(![image](https://github.com/user-attachments/assets/77fa3d0c-b3b5-4790-b374-ec5240d4246e))
+![image](https://github.com/user-attachments/assets/77fa3d0c-b3b5-4790-b374-ec5240d4246e)
 
 
 > Output voltage is defined by:  
