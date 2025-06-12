@@ -1,9 +1,9 @@
 # 🔧 PCB Design Projects
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Tools](https://img.shields.io/badge/Tools-KiCad%20%7C%20Eagle%20%7C%20EasyEDA-green)
+![Tools](https://img.shields.io/badge/Tools-KiCad%20%7C%20Eagle-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Projects](https://img.shields.io/badge/Projects-3-blue)
+![Projects](https://img.shields.io/badge/Projects-4-blue)
 
 This combined repository contains self-contained folders for each individual project, along with complete schematics, PCB layouts, documentation, and source files where applicable. It serves both as a personal portfolio and an open-source contribution to the maker and engineering community.
 
