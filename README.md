@@ -50,7 +50,8 @@ A miniature solar energy harvesting module capable of charging a Li-ion battery 
 - Regulated 3.3V/5V output
 - Compact PCB layout
 
-![Tiny Solar Supply Preview](https://raw.githubusercontent.com/Ruthvik-reddy-A/PCB--Tiny-Solar-Power-Supply/main/images/solar-preview.png)
+![Tiny Solar Supply Preview](https://github.com/user-attachments/assets/a0683dc4-0e03-41be-add1-3364a4481c40)
+
 
 ---
 
