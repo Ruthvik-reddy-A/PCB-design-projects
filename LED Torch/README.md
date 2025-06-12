@@ -11,6 +11,12 @@ A simple, compact, and low-power LED torch circuit designed for basic lighting a
 
 ---
 
+## 📸 Schematic
+
+![image](https://github.com/user-attachments/assets/2ff32537-69d5-49e4-9009-28fcb989187e)
+
+---
+
 ## ⚙️ Features
 
 - ✅ Efficient LED driver using discrete components
