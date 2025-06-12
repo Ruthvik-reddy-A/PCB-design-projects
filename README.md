@@ -36,7 +36,8 @@ A microcontroller-based data logger that logs sensor or serial data to a 512KB e
 - Power supply filtering and decoupling
 - Compatible with UART, I²C sensors or serial interfaces
 
-![MCU Datalogger Preview](https://github.com/user-attachments/assets/a3be4ded-9055-4b7a-9af2-43a87650450a)
+![MCU Datalogger Preview](https://github.com/user-attachments/assets/d0e1fe85-adf4-46f1-b762-b7ab736d0cbc)
+
 
 ---
 
