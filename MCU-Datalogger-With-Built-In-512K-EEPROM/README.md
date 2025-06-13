@@ -1,6 +1,6 @@
 # 🧾 MCU Data Logger – PCB Design
 
-This repository contains the complete PCB design files and documentation for a microcontroller-based data logger with 512KB external EEPROM. The system is designed to log sensor data and store it in non-volatile memory, making it ideal for long-term, standalone data acquisition applications..
+This repository contains the complete PCB design files and documentation for a microcontroller-based data logger with 512KB external EEPROM. The system is designed to log sensor data and store it in non-volatile memory, making it ideal for long-term, standalone data acquisition applications.
 
 ---
 
@@ -28,14 +28,12 @@ This repository contains the complete PCB design files and documentation for a m
 ## 🖼️ PCB Preview
 Top View of the PCB:
 
-![PCB Preview](https://github.com/user-attachments/assets/5e000ff0-548b-4c07-b2db-21f77b6738bf)
-
-
+![PCB Preview](readme_assets/pcb_render_top.png)
 
 Back View (if applicable):
 
-![Back View](https://github.com/user-attachments/assets/a21a89dd-ddf9-4ecb-bde0-6d50f5a780ab)
-
+![Back View](![image](https://github.com/user-attachments/assets/6cc9bdd9-4c8e-4abc-9560-f90c68e91c3e)
+)
 
 ---
 

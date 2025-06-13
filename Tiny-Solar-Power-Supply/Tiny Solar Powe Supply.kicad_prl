@@ -117,6 +117,18 @@
         "open": true,
         "window": {
           "display": 0,
+          "maximized": true,
+          "pos_x": -11,
+          "pos_y": -11,
+          "size_x": 1942,
+          "size_y": 1030
+        }
+      },
+      {
+        "name": "Tiny Solar Powe Supply.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
           "maximized": false,
           "pos_x": -9,
           "pos_y": 0,
