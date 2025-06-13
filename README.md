@@ -22,7 +22,8 @@ A compact, dual-voltage regulated power supply designed to power breadboard circ
 - Power input via USB or 9V barrel jack
 - On/off toggle switches and status LEDs
 
-![Breadboard Power Supply Preview](https://raw.githubusercontent.com/Ruthvik-reddy-A/PCB--BB-PowerSupply/main/images/breadboard-preview.png)
+![Breadboard Power Supply Preview](https://github.com/user-attachments/assets/b80c0f37-1c90-4724-9982-0ad3598e7896)
+
 
 ---
 
