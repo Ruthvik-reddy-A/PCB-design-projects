@@ -10,6 +10,27 @@ This repository documents a simple yet essential module for electronics prototyp
 * Fits standard breadboard power rails
 * Power indicator LED
 
+---
+
+## 🔧Schematic
+![image](https://github.com/user-attachments/assets/b7b1bc69-9700-4db6-8d01-e2a787455f88)
+
+
+
+## 🖼️ PCB Preview
+Top View of the PCB:
+
+![image](https://github.com/user-attachments/assets/661a7166-1eba-4359-a028-bf145ea16efa)
+
+
+
+Back View (if applicable):
+
+![image](https://github.com/user-attachments/assets/43be32aa-a716-456f-9530-5f55e0f8d56b)
+
+
+---
+
 ## 🧩 Components Used
 | Component         | Description                            |
 | ----------------- | -------------------------------------- |
