@@ -6,7 +6,12 @@ A compact, dual-voltage regulated power supply module designed specifically to p
 
 ## 📸 Preview
 
-![Breadboard Power Supply Preview](images/breadboard-preview.png) <!-- Replace with actual image if available -->
+![image](https://github.com/user-attachments/assets/ee22f1c2-e056-40d5-b2a8-56c0e2ca5754)
+
+
+![image](https://github.com/user-attachments/assets/f98a4a0c-4ae6-4ec6-a667-1348c7870e94)
+
+
 
 ---
 
