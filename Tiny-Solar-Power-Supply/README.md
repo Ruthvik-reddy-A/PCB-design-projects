@@ -8,7 +8,8 @@ Originally published in Elektor Magazine, this design is adapted to fit into sma
 
 ## 📸 Preview
 
-![Tiny Solar Supply PCB Preview](images/solar-preview.png) <!-- Replace with actual image path -->
+![Tiny Solar Supply PCB Preview](https://github.com/user-attachments/assets/faf72fd4-a545-4611-99ff-ec73eee9e7c5)
+<!-- Replace with actual image path -->
 
 ---
 
@@ -59,7 +60,8 @@ Originally published in Elektor Magazine, this design is adapted to fit into sma
 - **Night**: T1 turns off, enabling IC1 to boost the battery to 3.3V.
 - **Optional**: Skip T1 to have always-on output or control with jumper at K3.
 
-![Circuit Diagram](images/solar-circuit.png) <!-- Replace with your schematic -->
+![image](https://github.com/user-attachments/assets/c677532a-712e-420e-a906-0f6086edd822)
+ <!-- Replace with your schematic -->
 
 ---
 
