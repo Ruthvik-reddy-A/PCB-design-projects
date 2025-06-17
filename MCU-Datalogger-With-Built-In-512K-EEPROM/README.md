@@ -27,7 +27,8 @@ This repository contains the complete PCB design files and documentation for a m
 ## 🖼️ PCB Preview
 Top View of the PCB:
 
-![PCB Preview](https://github.com/user-attachments/assets/a3be4ded-9055-4b7a-9af2-43a87650450a)
+![Front View](https://github.com/user-attachments/assets/e1956d6c-d059-417f-8eb1-6aa06948d26c)
+
 
 
 Back View (if applicable):
