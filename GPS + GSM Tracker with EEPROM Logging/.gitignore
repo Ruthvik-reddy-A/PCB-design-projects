@@ -1,0 +1,11 @@
+
+*-backups/
+fp-info-cache
+__pycache__/
+sym-lib-table-bak
+sym-lib-table~
+project.autosave
+autosave-*
+cache/
+*.tmp.*
+*.net
