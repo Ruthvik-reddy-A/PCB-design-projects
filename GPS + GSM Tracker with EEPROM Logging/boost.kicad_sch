@@ -1,0 +1,1791 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "280c532f-d37f-4264-ba00-26cc6f0edc34")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SS14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:MT3608"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MT3608"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MT3608_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MT3608_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Boost Conv"
+		(exclude_from_sim no)
+		(at 119.634 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8624376c-f2cd-40ca-9d39-b6922356dc79")
+	)
+	(junction
+		(at 132.715 83.058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba869ee-d022-4f94-b1d6-db9201a33d97")
+	)
+	(junction
+		(at 160.528 88.138)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10d6eff4-8bb6-4e63-abd8-eb3ff50ce9a6")
+	)
+	(junction
+		(at 160.528 98.806)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "146ce12b-1738-48d7-b5fd-b117ae1f2338")
+	)
+	(junction
+		(at 168.275 76.708)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884f8280-e0f9-461f-882f-a7a35bf5f5e3")
+	)
+	(junction
+		(at 166.37 76.708)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9502a209-f0e0-43a4-9392-8865125b2d16")
+	)
+	(junction
+		(at 160.528 89.916)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7144edf-d5e4-40aa-a770-bb066c6af079")
+	)
+	(junction
+		(at 166.37 92.583)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d45c3d77-53fc-4113-89ac-7170049c56ea")
+	)
+	(junction
+		(at 160.655 76.708)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4ff6189-e52a-48eb-8341-904bb659250f")
+	)
+	(junction
+		(at 148.59 76.708)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed4a69ab-a1bb-4133-a5b0-7430fa2b4f16")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.138) (xy 121.92 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1189ed75-d002-49ee-a8f3-727d81c35979")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.708) (xy 150.495 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a42bc0-bedf-49bd-a2d2-f149d6840ead")
+	)
+	(wire
+		(pts
+			(xy 166.37 84.963) (xy 166.37 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb93ae3-7784-476d-91f9-2641ca757def")
+	)
+	(wire
+		(pts
+			(xy 156.21 98.806) (xy 160.528 98.806)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227429e1-4781-4ef0-9b6f-baf9f0443bfd")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.058) (xy 148.59 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2694218d-6ccc-4e42-bf6c-574b35a9bcca")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.456) (xy 166.37 92.583)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c85feab-92c2-4065-8225-bf110d12a25f")
+	)
+	(wire
+		(pts
+			(xy 132.715 76.708) (xy 132.715 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4438496f-a589-4c1a-ace4-7f4bf14e532e")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.583) (xy 166.37 98.806)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51158f73-e060-4469-ac4a-16879f426732")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.708) (xy 160.655 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3e46a2-64e6-4dc3-99d7-664cddeb3cc2")
+	)
+	(wire
+		(pts
+			(xy 147.955 88.138) (xy 160.528 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677e6f89-31ab-4bd5-b2e4-e4a1377420e0")
+	)
+	(wire
+		(pts
+			(xy 160.528 88.138) (xy 160.655 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70991661-6cc3-474f-8b5f-d2b2138b769f")
+	)
+	(wire
+		(pts
+			(xy 144.145 76.708) (xy 148.59 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4c0980-cdf4-4dd0-9463-0362ccc6bf09")
+	)
+	(wire
+		(pts
+			(xy 160.655 76.708) (xy 158.115 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e785286-f737-4722-8662-84a8ed6221cf")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.058) (xy 132.715 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d59aabc-78da-46ec-ac18-150f80cfaa6a")
+	)
+	(wire
+		(pts
+			(xy 160.655 79.883) (xy 160.655 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a0293c-b681-42f2-a17e-54474cc38b39")
+	)
+	(wire
+		(pts
+			(xy 168.275 76.708) (xy 169.545 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1138cc0-edf0-4efc-9f6f-48fc33850b9b")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.708) (xy 168.275 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b305df66-5db6-4db8-a994-f68fb45a996c")
+	)
+	(wire
+		(pts
+			(xy 160.655 87.503) (xy 160.655 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d96e75-e7fb-4b53-8f51-d27bbd9ac622")
+	)
+	(wire
+		(pts
+			(xy 160.528 97.536) (xy 160.528 98.806)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c157f4ca-3956-495a-ab9e-007420289ca2")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.138) (xy 132.715 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b7ecbb-4905-45a5-9958-d012bc64287a")
+	)
+	(wire
+		(pts
+			(xy 147.955 83.058) (xy 148.59 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd09f639-3666-476c-a680-cf34e9cbabac")
+	)
+	(wire
+		(pts
+			(xy 160.528 98.806) (xy 166.37 98.806)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbdd4bc-7420-4d3d-b4ee-9ededc035064")
+	)
+	(wire
+		(pts
+			(xy 136.525 76.708) (xy 132.715 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee940cc7-2975-464b-87d9-51cf46f28e07")
+	)
+	(wire
+		(pts
+			(xy 160.528 88.138) (xy 160.528 89.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22c31ad-2a7d-47df-9695-52a4e494b404")
+	)
+	(wire
+		(pts
+			(xy 160.528 89.916) (xy 160.528 90.043)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30ae18e-8649-47b8-aeba-872a6e128ff3")
+	)
+	(hierarchical_label "BAT+(3.7V)"
+		(shape input)
+		(at 121.92 83.058 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "201bacff-bdc4-4d98-81a6-f255524e2f98")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 156.21 98.806 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e80e473-d612-423b-8dcd-00ebf8114047")
+	)
+	(hierarchical_label "BAT-(GND)"
+		(shape input)
+		(at 140.335 93.218 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba8b1f76-3567-4f70-b0fa-f56da891abb3")
+	)
+	(hierarchical_label "4.1V"
+		(shape input)
+		(at 169.545 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6e669ef-7b8f-414a-aee3-574bafd6cd64")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.528 93.726 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "000794ed-5be0-47ad-b172-71e6a4e75e1b")
+		(property "Reference" "R35"
+			(at 157.988 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13k"
+			(at 163.068 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 158.75 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.528 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.528 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf5e0e4f-dc39-4d08-9b24-a30fcf0d227b")
+		)
+		(pin "1"
+			(uuid "cbcaf9fb-801e-4118-b3bf-4bb3c1802f93")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 88.773 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2959e5af-2af6-419e-a201-f368ff4ce1c9")
+		(property "Reference" "C26"
+			(at 169.545 87.5029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 169.545 90.0429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 165.4048 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10ffac48-47b0-4207-b665-1e3d167f340f")
+		)
+		(pin "1"
+			(uuid "392381c7-c935-41a0-9169-4e053351c2e9")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 140.335 76.708 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ae09940-69f1-4ed4-a790-33afee1b37db")
+		(property "Reference" "L2"
+			(at 136.525 74.803 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 144.145 74.803 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 140.335 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.335 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 140.335 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46a38814-ced7-4ac3-83b6-d8ea225f7a1a")
+		)
+		(pin "2"
+			(uuid "7e6eeb43-e381-4d48-a099-b06a637d94bf")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.655 83.693 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80152553-50ff-4432-be05-265253e3650f")
+		(property "Reference" "R34"
+			(at 158.115 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 163.195 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 158.877 83.693 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.655 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.655 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "257c27f9-0344-476e-8391-f56ce8b71864")
+		)
+		(pin "1"
+			(uuid "547172f1-b068-46db-a6a2-2083d41b20e3")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 88.138 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de201bd1-42af-425c-9bf2-8a4f022fcc69")
+		(property "Reference" "R33"
+			(at 125.73 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 125.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbbe2f27-5f3a-4ee0-85c2-d844e50de906")
+		)
+		(pin "1"
+			(uuid "2c4a43eb-81d9-4ec0-bc46-fce53cb16e17")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 168.275 76.708 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e41aea5d-133d-4dd4-8772-aaec8b9b2784")
+		(property "Reference" "#FLG07"
+			(at 168.275 74.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 168.275 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.275 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 168.275 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "183a73b6-7056-48ac-8b14-8469c796a1b8")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:MT3608")
+		(at 140.335 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6e64521-c8f7-41ac-8d3a-2c806f4b8f44")
+		(property "Reference" "U15"
+			(at 136.525 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MT3608"
+			(at 142.24 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 141.605 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+			(at 133.985 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at 140.335 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c30734b7-dca8-4adc-b5c2-1394f12f2abb")
+		)
+		(pin "6"
+			(uuid "62127a3d-bb07-4c45-b08c-95c3bb4dac7a")
+		)
+		(pin "2"
+			(uuid "b5423927-f152-4d32-82b2-0c8c33d47cb4")
+		)
+		(pin "1"
+			(uuid "6aef06a7-a7f0-4fcc-931f-b3185ec9d3ad")
+		)
+		(pin "5"
+			(uuid "9a61cd51-bbc0-40e7-a4bb-dbf744db9094")
+		)
+		(pin "3"
+			(uuid "f03f530b-0803-4592-ad48-2ea03cc38ebc")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 154.305 76.708 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7702c63-c566-440f-aa40-c9e926015495")
+		(property "Reference" "D5"
+			(at 154.6225 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 154.6225 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 154.305 72.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 154.305 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 154.305 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11cef72b-84f7-4444-bd8c-bdc7b4313337")
+		)
+		(pin "2"
+			(uuid "1f617c0f-2c92-409a-bfd8-feaa86dd2acc")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/b8b29b4e-c16c-47ce-a307-df44746374af"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

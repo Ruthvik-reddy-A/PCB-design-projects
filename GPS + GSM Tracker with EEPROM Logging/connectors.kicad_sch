@@ -1631,7 +1631,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape bidirectional)
-		(at 49.53 73.66 0)
+		(at 49.022 74.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape bidirectional)
-		(at 49.53 71.12 0)
+		(at 49.022 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1818,7 +1818,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 49.53 66.04 0)
+		(at 49.022 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1895,7 +1895,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 49.53 68.58 0)
+		(at 49.022 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1940,7 +1940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 41.148 90)
 			(effects
 				(font
@@ -2008,7 +2008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 32.258 90)
 			(effects
 				(font
@@ -2077,7 +2077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 97.155 55.245 0)
 			(effects
 				(font
@@ -2151,7 +2151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 52.07 41.91 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 44.45 85.725 0)
 			(effects
 				(font
@@ -2262,80 +2262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 44.45 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3981de01-12fd-4ac3-b05f-3b754aa7a453")
-		(property "Reference" "J3"
-			(at 45.085 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 45.085 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83ec84ff-1478-4348-b33e-74a759198fb1")
-		)
-		(pin "2"
-			(uuid "e107b0a6-5e5f-4837-bcee-26f493f0a604")
-		)
-		(pin "4"
-			(uuid "21364ed1-263c-48ab-8f8d-a1a493a68627")
-		)
-		(pin "3"
-			(uuid "92840ec1-396b-4ad5-8285-ce90b5a1cb95")
-		)
-		(instances
-			(project ""
-				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/f04a2659-cc82-4231-96d1-5a6a6e2ef39d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 122.555 39.37 180)
 		(unit 1)
@@ -2361,7 +2287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 122.555 39.37 0)
 			(effects
 				(font
@@ -2438,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 52.07 26.67 0)
 			(effects
 				(font
@@ -2506,7 +2432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 121.92 55.88 0)
 			(effects
 				(font
@@ -2580,7 +2506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-07A_1x07_P2.54mm_Vertical"
 			(at 102.235 77.47 0)
 			(effects
 				(font
@@ -2663,7 +2589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 53.34 37.338 90)
 			(effects
 				(font
@@ -2730,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-07A_1x07_P2.54mm_Vertical"
 			(at 125.095 78.105 0)
 			(effects
 				(font
@@ -2789,16 +2715,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 44.45 68.58 0)
+		(at 43.942 69.088 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5cc8f7f-29e6-4903-9640-0ff1f2fdc431")
 		(property "Reference" "J2"
-			(at 45.085 61.595 0)
+			(at 40.64 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,15 +2731,15 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 45.085 64.135 0)
+			(at 44.577 64.643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 68.58 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+			(at 43.942 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 68.58 0)
+			(at 43.942 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 44.45 68.58 0)
+			(at 43.942 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 122.555 30.48 0)
 			(effects
 				(font
@@ -2964,7 +2889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 53.34 52.578 90)
 			(effects
 				(font

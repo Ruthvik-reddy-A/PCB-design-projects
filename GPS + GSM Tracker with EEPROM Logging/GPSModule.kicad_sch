@@ -1,0 +1,1348 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "35ffba54-3730-45b6-8151-2ba5cd58e904")
+	(paper "A4")
+	(lib_symbols
+		(symbol "RF:PAT1220-C-10DB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PAT1220-C-10DB"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 10dB Attenuation, PAT1220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF attenuator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RF*Attenuator*Susumu*PAT1220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PAT1220-C-10DB_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.27) (xy -3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy 3.937 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 1.27) (xy 3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PAT1220-C-10DB_1_1"
+				(rectangle
+					(start -4.572 -1.778)
+					(end -3.302 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy -3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 3.175)
+					(end 1.524 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.302 -1.778)
+					(end 4.572 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 -3.048) (xy 3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RF_GPS:NEO-8Q"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -13.97 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NEO-8Q"
+				(at 11.43 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_GPS:ublox_NEO"
+				(at 10.16 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/NEO-8Q_DataSheet_UBX-15031913.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GNSS Module NEO 8, VCC 1.65V to 3.6V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ublox GPS GNSS module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ublox*NEO*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NEO-8Q_0_1"
+				(rectangle
+					(start -15.24 20.32)
+					(end 15.24 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NEO-8Q_1_1"
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "USB_DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "USB_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "TXD/SPI_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "RXD/SPI_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "SDA/~{SPI_CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "SCL/SPI_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "EXTINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "~{SAFEBOOT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "D_SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 22.86 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 22.86 270)
+					(length 2.54)
+					(name "V_BCKP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 22.86 270)
+					(length 2.54)
+					(name "VDD_USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 22.86 270)
+					(length 2.54)
+					(name "VCC_RF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESERVED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "LNA_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "RF_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "TIMEPULSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 125.222 66.548)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d560d28b-e413-4ee6-be7d-86d83c7348e7")
+	)
+	(no_connect
+		(at 112.522 95.758)
+		(uuid "19787310-fdd3-421d-b468-c4226ee031ad")
+	)
+	(no_connect
+		(at 112.522 110.998)
+		(uuid "2ec1249e-97af-468a-bd44-aa5daa17e4a9")
+	)
+	(no_connect
+		(at 112.522 93.218)
+		(uuid "3553a752-5a59-4dbc-9e8e-29f14d1ce2da")
+	)
+	(no_connect
+		(at 112.522 108.458)
+		(uuid "4f694cb3-a91b-45c9-a194-4f4065082a61")
+	)
+	(no_connect
+		(at 112.522 105.918)
+		(uuid "5512601f-2b03-48e1-98f3-c18072d8cc0c")
+	)
+	(no_connect
+		(at 112.522 80.518)
+		(uuid "6036bc17-e6f2-4aa2-af35-fe54595922a7")
+	)
+	(no_connect
+		(at 112.522 100.838)
+		(uuid "66a74b8e-4503-4fe1-8fe6-e7f72ca7a698")
+	)
+	(no_connect
+		(at 112.522 77.978)
+		(uuid "a4b88b4d-5a49-418c-9703-a861830d2f46")
+	)
+	(no_connect
+		(at 148.082 88.138)
+		(uuid "bb044f38-4f6c-459d-93a0-b69112f1f6b8")
+	)
+	(no_connect
+		(at 135.382 70.358)
+		(uuid "d8df523c-ebee-4a59-ae39-58d2811dfdf9")
+	)
+	(no_connect
+		(at 180.086 93.218)
+		(uuid "d8ed95f8-7343-4c45-8326-7e79b0ccd807")
+	)
+	(no_connect
+		(at 148.082 100.838)
+		(uuid "dc274396-ec7f-4b80-bdcb-fd8f9807d276")
+	)
+	(no_connect
+		(at 130.302 70.358)
+		(uuid "fad24f48-e718-4e65-8272-546f72898ae5")
+	)
+	(wire
+		(pts
+			(xy 172.466 93.218) (xy 180.086 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134a8310-293d-4979-8972-a5287146746c")
+	)
+	(wire
+		(pts
+			(xy 125.222 66.548) (xy 127.762 66.548)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288dcead-de9d-4f90-8fad-9c78d67e4ad5")
+	)
+	(wire
+		(pts
+			(xy 125.222 66.548) (xy 125.222 70.358)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9044be-3983-4293-9707-57f6b40a3e47")
+	)
+	(wire
+		(pts
+			(xy 162.306 83.058) (xy 172.466 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3ca6e0-158e-4f71-8aaf-f629a4ebda55")
+	)
+	(wire
+		(pts
+			(xy 127.762 66.548) (xy 127.762 70.358)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07bf9be-811b-4e30-a3a0-dd668d82cfe1")
+	)
+	(wire
+		(pts
+			(xy 172.466 83.058) (xy 172.466 84.963)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0df3ee6-324b-4d2f-8a39-865beb9d94c1")
+	)
+	(wire
+		(pts
+			(xy 125.222 63.373) (xy 125.222 66.548)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7936eed-1afa-4eba-94f6-d83e1f44ff85")
+	)
+	(wire
+		(pts
+			(xy 148.082 93.218) (xy 152.146 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13417ac-ac84-48e3-b5b4-22fbcbf542cd")
+	)
+	(hierarchical_label "TX2"
+		(shape input)
+		(at 112.522 88.138 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37ab58ef-ce5c-491f-865b-b44dfa77e0d3")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 130.302 116.078 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c7d73bc-fcb9-4dbe-b338-8b85483d5ede")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 125.222 63.373 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acf8b93a-9dc4-4c64-a5c3-9f4137aad047")
+	)
+	(hierarchical_label "RX2"
+		(shape input)
+		(at 112.522 85.598 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d292d99e-385c-4449-bbe3-763c1ef0abb5")
+	)
+	(symbol
+		(lib_id "RF:PAT1220-C-10DB")
+		(at 162.306 90.678 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f08e7b9-516b-4d54-b5c1-cce2e511ed54")
+		(property "Reference" "U13"
+			(at 162.306 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAT1220-C-10DB"
+			(at 173.101 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+			(at 162.306 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+			(at 168.656 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 10dB Attenuation, PAT1220"
+			(at 162.306 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb327a13-3285-42e1-b723-59d1563ab140")
+		)
+		(pin "1"
+			(uuid "cdea7f49-52b4-4622-bc19-ea4ecda8b3ee")
+		)
+		(pin "2"
+			(uuid "dc4f2689-ceb7-42c9-b4f3-7220538ef9ab")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/7d596f28-a7aa-4a70-a563-4db3b1f7c2d8"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.466 84.963 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dc20fe6-f20d-42c5-a876-5ba86b3c310e")
+		(property "Reference" "#PWR017"
+			(at 172.466 91.313 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.466 90.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.466 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.466 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.466 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50d022ff-5ee4-40cd-94bf-dde1fc9f0978")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/7d596f28-a7aa-4a70-a563-4db3b1f7c2d8"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_GPS:NEO-8Q")
+		(at 130.302 93.218 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d587a4a4-54e5-4ac0-956a-d5ac574fd01b")
+		(property "Reference" "U4"
+			(at 132.4453 115.443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NEO-8Q"
+			(at 132.4453 117.983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_GPS:ublox_NEO"
+			(at 140.462 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/NEO-8Q_DataSheet_UBX-15031913.pdf"
+			(at 130.302 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GNSS Module NEO 8, VCC 1.65V to 3.6V"
+			(at 130.302 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "765dbab8-e455-4892-85a2-6247b886026f")
+		)
+		(pin "23"
+			(uuid "7d82136a-0da5-4cf8-b74f-fe2c8d6d4eac")
+		)
+		(pin "5"
+			(uuid "f877c016-1174-4b37-9be3-d0e58071f0f8")
+		)
+		(pin "20"
+			(uuid "d061c21d-457e-4bdb-a9fc-009d30a14648")
+		)
+		(pin "21"
+			(uuid "e6e49907-eb9a-4df0-a36b-97e84471623d")
+		)
+		(pin "18"
+			(uuid "2df3bff1-6c98-4460-8132-2246ec1cbe55")
+		)
+		(pin "4"
+			(uuid "1ed0b7bf-b233-463f-a050-05d0d9515c18")
+		)
+		(pin "1"
+			(uuid "adba52ba-9a5c-4414-9264-be9972b3a868")
+		)
+		(pin "8"
+			(uuid "9fc9c987-d59f-45e2-bade-3832abe1450d")
+		)
+		(pin "2"
+			(uuid "143f0246-e623-4aaf-8e3c-95c8dc142003")
+		)
+		(pin "19"
+			(uuid "df78609a-dd17-4384-b06e-d0298b0cf0cd")
+		)
+		(pin "16"
+			(uuid "8d2e15cd-ff09-4aa1-a59c-1204fbb83513")
+		)
+		(pin "10"
+			(uuid "a6a01958-59f5-48dd-b282-d2a475d41fe5")
+		)
+		(pin "12"
+			(uuid "48dad05e-4bf5-4656-a9f3-3cbd18ced610")
+		)
+		(pin "13"
+			(uuid "d68557cf-9e11-4bae-a6ac-576cf58b5ce1")
+		)
+		(pin "14"
+			(uuid "ea619348-0734-49b7-89e7-fd7f9eaaa95d")
+		)
+		(pin "17"
+			(uuid "9ec5b7fe-7f44-44e2-92ee-bc3c5c4a4bd9")
+		)
+		(pin "24"
+			(uuid "d8c07393-d03e-4b0e-b857-0b091afb8f9d")
+		)
+		(pin "22"
+			(uuid "4c459906-74cd-4b58-ba7b-1cff2ccc00f1")
+		)
+		(pin "7"
+			(uuid "13391e71-c9cc-4fed-a25d-fdc83c93b31a")
+		)
+		(pin "9"
+			(uuid "8d170f2e-0593-47a2-829b-248efea555de")
+		)
+		(pin "15"
+			(uuid "3eacca8a-3255-4938-80a7-6770642c606a")
+		)
+		(pin "11"
+			(uuid "ebe0bdf2-1e62-4377-9850-bebeedcdf317")
+		)
+		(pin "3"
+			(uuid "652f7acb-2971-4539-888b-cf01d8718c69")
+		)
+		(instances
+			(project "GPS-GSM Tracker with EEPROM Logging"
+				(path "/98ceb1ac-bd30-43a6-9b0c-d172f1189100/7d596f28-a7aa-4a70-a563-4db3b1f7c2d8"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

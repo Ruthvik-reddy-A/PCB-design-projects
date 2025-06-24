@@ -645,6 +645,22 @@
     [
       "f04a2659-cc82-4231-96d1-5a6a6e2ef39d",
       "Connectors"
+    ],
+    [
+      "3c17bacd-b77d-4c46-b1b6-a26a26d80895",
+      "GSM_Module"
+    ],
+    [
+      "7d596f28-a7aa-4a70-a563-4db3b1f7c2d8",
+      "GPS Module"
+    ],
+    [
+      "561f85b2-eba1-4378-9cc4-7817927633e6",
+      "BMS"
+    ],
+    [
+      "b8b29b4e-c16c-47ce-a307-df44746374af",
+      "Boostconv"
     ]
   ],
   "text_variables": {}
