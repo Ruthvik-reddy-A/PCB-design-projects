@@ -66,25 +66,25 @@ A compact, battery-powered LED torch circuit using minimal components. Designed 
 ### 5. [📡 GPS + GSM Tracker with EEPROM Logging](https://github.com/Ruthvik-reddy-A/PCB-design-projects/tree/main/GPS%20%2B%20GSM%20Tracker%20with%20EEPROM%20Logging)
 A compact, ESP32-S3-based IoT tracker that logs GPS data locally and transmits position via GSM. Ideal for asset tracking, vehicle monitoring, and offline location logging in remote or mobile environments.
 
-Key Features:
-Microcontroller: ESP32-S3-WROOM-1 with Wi-Fi + BLE
-GPS Module: NEO-8Q for real-time latitude/longitude tracking
-GSM Module: SIM800C for SMS or GPRS-based data transmission
-EEPROM: I²C-based 24LC256 for offline GPS data logging
+**Key Features:**
+- Microcontroller: ESP32-S3-WROOM-1 with Wi-Fi + BLE
+- GPS Module: NEO-8Q for real-time latitude/longitude tracking
+- GSM Module: SIM800C for SMS or GPRS-based data transmission
+- EEPROM: I²C-based 24LC256 for offline GPS data logging
 
-Power Supply:
-Input: 3.7V LiPo battery
-Charging: TP4056 module with battery protection
-Regulation: AMS1117-3.3 for ESP32, Boost converter for SIM800C
+**Power Supply:**
+- Input: 3.7V LiPo battery
+- Charging: TP4056 module with battery protection
+- Regulation: AMS1117-3.3 for ESP32, Boost converter for SIM800C
 
-Communication:
-3× UARTs for GPS, GSM, and FTDI debugging
-1× I²C for EEPROM and future expansion
-SPI pins available for SD card or display
+**Communication:*8
+- 3× UARTs for GPS, GSM, and FTDI debugging
+- 1× I²C for EEPROM and future expansion
+- SPI pins available for SD card or display
 
-Indicators:
-LED status for power, charging, and ESP32 boot
-Power control switch for full system on/off
+**Indicators:**
+- LED status for power, charging, and ESP32 boot
+- Power control switch for full system on/off
 
 ![image](https://github.com/user-attachments/assets/5bcc69d6-d367-4f33-bdab-899ec2e042b4)
 
