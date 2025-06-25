@@ -63,7 +63,7 @@ A compact, battery-powered LED torch circuit using minimal components. Designed 
 
 ---
 
-5. 📡 GPS + GSM Tracker with EEPROM Logging
+### 5. [📡 GPS + GSM Tracker with EEPROM Logging](https://github.com/Ruthvik-reddy-A/PCB-design-projects/tree/main/GPS%20%2B%20GSM%20Tracker%20with%20EEPROM%20Logging)
 A compact, ESP32-S3-based IoT tracker that logs GPS data locally and transmits position via GSM. Ideal for asset tracking, vehicle monitoring, and offline location logging in remote or mobile environments.
 
 Key Features:
