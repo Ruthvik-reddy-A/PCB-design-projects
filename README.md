@@ -86,7 +86,8 @@ Indicators:
 LED status for power, charging, and ESP32 boot
 Power control switch for full system on/off
 
-![image](https://github.com/user-attachments/assets/808cd090-9d32-4ef5-b5d8-a6f08ef55a36)
+![image](https://github.com/user-attachments/assets/3d530ea2-1999-4d35-95bd-7b292964044c)
+
 
 ---
 
