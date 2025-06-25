@@ -65,7 +65,10 @@ An ESP32-S3 based IoT hardware project for **location tracking** using a **GPS m
 - AT24C256 EEPROM (I²C)
 - Status LEDs and EN/BOOT buttons
 
-📷 *[Include schematic image or KiCad 3D render here]*
+📷 *![image](https://github.com/user-attachments/assets/753b703e-012b-43aa-bc9f-b1255291e6f5)*
+
+![image](https://github.com/user-attachments/assets/4f7b27f5-4cd9-4600-90d7-56db0fc6dff9)
+
 
 ---
 
