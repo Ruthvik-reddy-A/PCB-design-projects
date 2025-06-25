@@ -77,7 +77,7 @@ A compact, ESP32-S3-based IoT tracker that logs GPS data locally and transmits p
 - Charging: TP4056 module with battery protection
 - Regulation: AMS1117-3.3 for ESP32, Boost converter for SIM800C
 
-**Communication:*8
+**Communication:**
 - 3× UARTs for GPS, GSM, and FTDI debugging
 - 1× I²C for EEPROM and future expansion
 - SPI pins available for SD card or display
